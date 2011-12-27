@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MeshMSInterface</string>
+    <string name="meshms_to_text">To</string>
+    <string name="meshms_msg_text">Write your MeshMS here</string>
+    <string name="meshms_send_button">Send</string>
+    <string name="meshms_pick_contact">Contact</string>
+    <string name="meshms_choose_number">Choose the number</string>
+</resources>

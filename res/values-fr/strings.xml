@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="meshms_to_text">Destinataire</string>
+	<string name="meshms_msg_text">Écrivez votre message ici.</string>
+	<string name="meshms_send_button">Envoyer</string>
+	<string name="meshms_pick_contact">Contacts</string>
+	<string name="meshms_choose_number">Choisissez le numéro</string>
+</resources>

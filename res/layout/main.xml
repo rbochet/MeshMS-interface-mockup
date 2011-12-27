@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout android:id="@+id/tableLayout1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<EditText android:hint="@string/meshms_to_text" android:layout_height="wrap_content" android:layout_weight="100" android:layout_width="wrap_content" android:id="@+id/meshms_to"></EditText>
+			<Button android:id="@+id/meshms_pick_contact" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/meshms_pick_contact"></Button>
+			<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/meshms_send_button" android:layout_weight="1" android:id="@+id/meshms_send"></Button>
+		</TableRow>
+	</TableLayout>
+	<EditText 
+		android:layout_height="wrap_content" android:id="@+id/message_text"
+		android:layout_width="fill_parent" android:hint="@string/meshms_msg_text" android:inputType="textAutoCorrect" android:layout_weight="1"></EditText>
+
+</LinearLayout>
+
